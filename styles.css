@@ -1,0 +1,97 @@
+.container {
+    margin: 40px auto;
+    max-width: 700px;
+    min-width: 20%;
+}
+
+h1, p, .survey-form {
+    margin: auto 10px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    margin-top: 10px;
+    text-shadow: 1px 1px 20px black;
+}
+
+body {
+    background-image: linear-gradient(115deg,
+            rgba(58, 58, 158, 0.8),
+            rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    height: 100%;
+    margin: 30px auto;
+}
+
+.survey-form {
+    padding: 40px;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+input,
+select {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 0;
+    text-indent: 10px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+label .radio-class, label .checkbox-class {
+    margin-top: unset;
+    margin-bottom: unset;
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: max-content;
+    display: inline-block;
+    margin: 10px 0;
+    margin-right: 10px;
+    height: auto;
+    vertical-align: middle;
+}
+
+textarea {
+    margin-top: 5px;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    text-indent: 10px;
+}
+
+input[type="submit"] {
+    height: 45px;
+    margin: 0;
+    color: white;
+    background-color: rgb(38, 141, 38);
+}
