@@ -17,8 +17,7 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-h1,
-p {
+h1, p {
     text-align: center;
 }
 
@@ -54,8 +53,7 @@ label {
     margin-bottom: 30px;
 }
 
-input,
-select {
+input, select {
     margin-top: 5px;
     display: block;
     width: 100%;
@@ -73,8 +71,7 @@ label .radio-class, label .checkbox-class {
     align-items: center;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
+input[type="radio"], input[type="checkbox"] {
     width: max-content;
     display: inline-block;
     margin: 10px 0;
