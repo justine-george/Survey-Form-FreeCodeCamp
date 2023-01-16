@@ -71,6 +71,29 @@ label .radio-class, label .checkbox-class {
     align-items: center;
 }
 
+/* background-color 0.25s ease, border-color 0.25s ease */
+input, textarea, select {
+    background-color: #edecff;
+    border-color:rgba(112, 112, 255, 0.8);
+    transition: background-color 0.25s ease, border-color 0.25s ease;
+    border-radius: 5px;
+}
+input:focus, input:hover,
+textarea:focus, textarea:hover,
+select:focus, select:hover
+{
+    background-color: #ffffff;
+    border-color:rgba(174, 174, 253, 0.8);
+}
+
+input[type="submit"] {
+    border: 2px solid black;
+    transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+input[type="submit"]:hover {
+    border-color: rgb(8, 117, 8);
+}
+
 input[type="radio"], input[type="checkbox"] {
     width: max-content;
     display: inline-block;
